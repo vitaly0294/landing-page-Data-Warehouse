@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="shortcut icon" type="image/png" href="./img/favicon.png" >
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -24,9 +26,9 @@
       </div>
       <nav>
         <ul class="navBar">
-          <li class="navBar__section"><a href="#">About</a></li>
-          <li class="navBar__section"><a href="#">Help</a></li>
-          <li class="navBar__section"><a href="#">Features</a></li>
+          <li class="navBar__section"><a href="#about">About</a></li>
+          <li class="navBar__section"><a href="#footer">Help</a></li>
+          <li class="navBar__section"><a href="#features">Features</a></li>
         </ul>
       </nav>
     </div>
@@ -40,11 +42,11 @@
         <p class="intro__description">Data Warehouse is a data storage area that has been
           tested for security, so you can store your data here
           safely but not be afraid of being stolen by others.</p>
-        <button class="btn">Learn more</button>
+        <button class="btn"><a href="#features">Learn more</a></button>
       </div>
     </section>
 
-    <section class="dataStorageBank">
+    <section class="dataStorageBank" id="about">
       <div class="dataStorageBank-wrap">
         <img src="./img/dataStorageBank.png" alt="Data Storage Bank" class="dataStorageBank__img">
         <div class="dataStorageBank-content">
@@ -56,7 +58,7 @@
       </div>
     </section>
 
-    <section class="features">
+    <section class="features" id="features">
       <h2 class="features__header">Features</h2>
       <p class="features__description">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
       <div class="features__items">
@@ -191,7 +193,7 @@
 
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="footer-info">
       <div class="footer-name">
         <div class="logo">
